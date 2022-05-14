@@ -1,0 +1,22 @@
+{
+  "name": "reactjs_practise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kemparaj565/reactjs_practise.git"
+  },
+  "author": "Kemp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kemparaj565/reactjs_practise/issues"
+  },
+  "homepage": "https://github.com/kemparaj565/reactjs_practise#readme",
+  "dependencies": {
+    "create-react-app": "^5.0.1"
+  }
+}
