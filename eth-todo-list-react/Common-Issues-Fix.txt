@@ -1,0 +1,15 @@
+If you run into webpack < 5 issue when importing web3 then please refer below thread
+
+Fix 1: 
+
+
+I figured it out. There's two fixes from this article: https://medium.com/@rasmuscnielsen/how-to-compile-web3-js-in-laravel-mix-6eccb4577666
+
+Easy way, Need to change import:
+
+import Web3 from 'web3'
+to
+
+import Web3 from 'web3/dist/web3.min.js'
+
+source: https://stackoverflow.com/questions/71245845/error-webpack-5-after-installing-web3-and-implementing-into-react-native-app
